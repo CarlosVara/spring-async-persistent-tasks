@@ -249,5 +249,16 @@
             <url>http://repository.springsource.com/maven/bundles/external</url>
         </repository>
     </repositories>
+    
+    <pluginRepositories>
+        <pluginRepository>
+            <id>Maven annotation plugin</id>
+            <url>http://maven-annotation-plugin.googlecode.com/svn/trunk/mavenrepo</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>JFrog maven plugins</id>
+            <url>http://www.jfrog.org/artifactory/plugins-releases</url>
+        </pluginRepository>
+    </pluginRepositories>
 
 </project>
